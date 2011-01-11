@@ -44,7 +44,7 @@
 require 'open4'
 
 class Albino
-  @@bin = ENV['PYGMENTIZE_BIN'] || '/usr/local/bin/pygmentize'
+  @@bin = 'pygmentize'
 
   def self.bin=(path)
     @@bin = path
